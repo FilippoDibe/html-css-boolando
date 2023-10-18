@@ -30,7 +30,139 @@ nav{
     color:whitesmoke;
     padding: 5px;
 }
+/* MAIN  layout */
+main{
+    width: 80%;
+    margin: auto;
+}
+.main_container{
+    display: flex;
+    
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3);
+    margin-top: 100px;
+    justify-content: center;
+}
+.img1{
+    display: flex;
+    background-image: url('../img/1.webp');
+    background-size: cover;
+    height: 600px;
+    width: 400px;
+    position: relative;
+}
+.info{
+    margin-bottom: 80px;
+}
+.img4{
+    background-image: url('../img/4.webp');
+    background-size: cover;
+    height: 600px;
+    width: 400px;
+    position: relative;
+}
 
+.img1:hover{
+    background-image: url('../img/1b.webp');
+}
+
+.descrizione{
+  padding: 5px 0;
+
+}
+.brand{
+    font: 11px;
+    color: grey;
+}
+.price{
+    color: red;
+    font-size: 12px;
+}
+.price_cancellato{
+    font-size: 12px;
+    color:grey;
+    text-decoration: line-through;
+}
+.slider{
+    height: auto;
+    width: auto;
+    position: absolute;
+    bottom: 40px;
+    left:0;
+    color:white;
+    font-size: 13px;
+}
+.sales{
+    background-color: red;
+    padding:5px
+}
+.sostenibile{
+    background-color: green;
+    padding:5px
+}
+.cuore{
+    padding:20px;
+    position: absolute;
+    top:20px;
+    right: 0px;
+    background-color: white;
+} 
+.cuore:hover{
+    color:red;
+} 
+.img4:hover{
+    background-image: url('../img/4b.webp');
+}
+/* FINE riga 1  */
+/* riga verticale 2 */
+.img2{
+    background-image: url('../img/2.webp');
+    background-size: cover;
+    height: 600px;
+    width: 400px;
+    position: relative;
+}
+
+.img2:hover{
+    background-image: url('../img/2b.webp');
+}
+.img5{
+    background-image: url('../img/5.webp');
+    background-size: cover;
+    height: 600px;
+    width: 400px;
+    position: relative;
+}
+
+.img5:hover{
+    background-image: url('../img/5b.webp');
+}
+/* riga verticale 3 */
+.img3{
+    background-image: url('../img/3.webp');
+    background-size: cover;
+    height: 600px;
+    width: 400px;
+    position: relative;
+}
+
+.img3:hover{
+    background-image: url('../img/3b.webp');
+}
+.img6{
+    background-image: url('../img/6.webp');
+    background-size: cover;
+    height: 600px;
+    width: 400px;
+    position: relative;
+}
+
+.img6:hover{
+    background-image: url('../img/6b.webp');
+}
 
 
 /* FOOTER  */
